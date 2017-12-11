@@ -4,16 +4,15 @@
 
         public static void main(String[] args) {
 
-            int Work = 9;
-            int HOME= 18;
+            int work = 9;
+            int home= 18;
 
             System.out.print("Please enter the number:  ");
             Scanner scanner = new Scanner(System.in);
             int userNumber = scanner.nextInt();
-            if(userNumber>=Work&& userNumber<=HOME) {
+            if(userNumber >= work&& userNumber <= home) {
                 System.out.println("I am at work");
-            }
-         else {
+            } else {
                 System.out.println("I rest");
             }
         }
