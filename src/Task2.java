@@ -7,7 +7,7 @@ public class Task2 {
     Scanner scanner = new Scanner(System.in);
     int userNumber1 = scanner.nextInt();
     int userNumber2 = scanner.nextInt();
-    int userNumber3 = scanner.nextInt();
+    int userNumber3 = scanner.nextInt();//uvguvgu
         if(userNumber1 > userNumber2 && userNumber1 > userNumber3) {
             System.out.println(userNumber1);
         } else if(userNumber2 > userNumber1 && userNumber2 > userNumber3) {
